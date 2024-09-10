@@ -37,4 +37,4 @@ get '/video_info' do
 end
 
 # Start the Sinatra server
-run! if app_file == $0
+run! if __FILE__ == $0
